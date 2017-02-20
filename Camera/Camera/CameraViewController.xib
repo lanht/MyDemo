@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CameraViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uH8-Up-2cD">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qWD-xq-3Sl">
+                            <rect key="frame" x="0.0" y="587" width="375" height="80"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Vs-Ut-1UK">
+                                    <rect key="frame" x="163" y="15" width="50" height="50"/>
+                                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="50" id="au8-5L-cs3"/>
+                                        <constraint firstAttribute="height" constant="50" id="mj2-bf-Tad"/>
+                                    </constraints>
+                                    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <state key="normal" backgroundImage="shotBtnImage"/>
+                                    <state key="highlighted" backgroundImage="shotBtnImageHight"/>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="3Vs-Ut-1UK" firstAttribute="centerY" secondItem="qWD-xq-3Sl" secondAttribute="centerY" id="P6l-19-HnX"/>
+                                <constraint firstAttribute="height" constant="80" id="YL6-Xi-f9x"/>
+                                <constraint firstItem="3Vs-Ut-1UK" firstAttribute="centerX" secondItem="qWD-xq-3Sl" secondAttribute="centerX" id="rQj-ui-qnN"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="qWD-xq-3Sl" secondAttribute="bottom" id="utb-HI-JEj"/>
+                        <constraint firstAttribute="trailing" secondItem="qWD-xq-3Sl" secondAttribute="trailing" id="xrW-Iu-olv"/>
+                        <constraint firstItem="qWD-xq-3Sl" firstAttribute="leading" secondItem="uH8-Up-2cD" secondAttribute="leading" id="yz0-Ea-HtR"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="uH8-Up-2cD" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="41C-EI-1ow"/>
+                <constraint firstAttribute="bottom" secondItem="uH8-Up-2cD" secondAttribute="bottom" id="MUG-mk-eQo"/>
+                <constraint firstAttribute="trailing" secondItem="uH8-Up-2cD" secondAttribute="trailing" id="dbZ-pX-i6L"/>
+                <constraint firstItem="uH8-Up-2cD" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="eoH-IO-LqW"/>
+            </constraints>
+            <point key="canvasLocation" x="33.5" y="54.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="shotBtnImage" width="200" height="200"/>
+        <image name="shotBtnImageHight" width="200" height="200"/>
+    </resources>
+</document>
