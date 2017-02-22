@@ -18,6 +18,8 @@
 		266839121E010AE500D92BBA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266839111E010AE500D92BBA /* AVFoundation.framework */; };
 		26923E211E5ABF97001AD63B /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26923E1F1E5ABF97001AD63B /* CameraViewController.m */; };
 		26923E221E5ABF97001AD63B /* CameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26923E201E5ABF97001AD63B /* CameraViewController.xib */; };
+		26A1DE3F1E5D9BBA00BA93E6 /* ImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A1DE3D1E5D9BBA00BA93E6 /* ImageCell.m */; };
+		26A1DE401E5D9BBA00BA93E6 /* ImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26A1DE3E1E5D9BBA00BA93E6 /* ImageCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,9 @@
 		26923E1E1E5ABF97001AD63B /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
 		26923E1F1E5ABF97001AD63B /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
 		26923E201E5ABF97001AD63B /* CameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CameraViewController.xib; sourceTree = "<group>"; };
+		26A1DE3C1E5D9BBA00BA93E6 /* ImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCell.h; sourceTree = "<group>"; };
+		26A1DE3D1E5D9BBA00BA93E6 /* ImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCell.m; sourceTree = "<group>"; };
+		26A1DE3E1E5D9BBA00BA93E6 /* ImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +123,9 @@
 				26923E1E1E5ABF97001AD63B /* CameraViewController.h */,
 				26923E1F1E5ABF97001AD63B /* CameraViewController.m */,
 				26923E201E5ABF97001AD63B /* CameraViewController.xib */,
+				26A1DE3C1E5D9BBA00BA93E6 /* ImageCell.h */,
+				26A1DE3D1E5D9BBA00BA93E6 /* ImageCell.m */,
+				26A1DE3E1E5D9BBA00BA93E6 /* ImageCell.xib */,
 				266838E91E01095000D92BBA /* Assets.xcassets */,
 				266838EB1E01095000D92BBA /* LaunchScreen.storyboard */,
 				266838EE1E01095000D92BBA /* Info.plist */,
@@ -270,6 +278,7 @@
 				266838ED1E01095000D92BBA /* LaunchScreen.storyboard in Resources */,
 				26923E221E5ABF97001AD63B /* CameraViewController.xib in Resources */,
 				266838EA1E01095000D92BBA /* Assets.xcassets in Resources */,
+				26A1DE401E5D9BBA00BA93E6 /* ImageCell.xib in Resources */,
 				266838E81E01095000D92BBA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,6 +305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				266838E51E01095000D92BBA /* ViewController.m in Sources */,
+				26A1DE3F1E5D9BBA00BA93E6 /* ImageCell.m in Sources */,
 				26923E211E5ABF97001AD63B /* CameraViewController.m in Sources */,
 				266838E21E01095000D92BBA /* AppDelegate.m in Sources */,
 				266838DF1E01095000D92BBA /* main.m in Sources */,
@@ -450,10 +460,10 @@
 				INFOPLIST_FILE = Camera/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.gzfns.NewECarss;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gzfns.zhuiche;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "df0d0223-9ff6-452d-a605-bd451bee9362";
-				PROVISIONING_PROFILE_SPECIFIER = DevProfileCheeGu;
+				PROVISIONING_PROFILE = "3d010c1b-ebb8-465e-a145-ef3274dc61b7";
+				PROVISIONING_PROFILE_SPECIFIER = DevProfileZhuiChe;
 			};
 			name = Debug;
 		};
@@ -467,7 +477,7 @@
 				INFOPLIST_FILE = Camera/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.gzfns.NewECarss;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gzfns.zhuiche;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "28acd2f8-7dc4-4262-9edc-4c23cdf1c94e";
 				PROVISIONING_PROFILE_SPECIFIER = DisProfileCheeGu;
