@@ -20,6 +20,7 @@
 		26923E221E5ABF97001AD63B /* CameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26923E201E5ABF97001AD63B /* CameraViewController.xib */; };
 		26A1DE3F1E5D9BBA00BA93E6 /* ImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A1DE3D1E5D9BBA00BA93E6 /* ImageCell.m */; };
 		26A1DE401E5D9BBA00BA93E6 /* ImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26A1DE3E1E5D9BBA00BA93E6 /* ImageCell.xib */; };
+		26A1DE4D1E5EEB6100BA93E6 /* ImageM.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A1DE4C1E5EEB6100BA93E6 /* ImageM.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		26A1DE3C1E5D9BBA00BA93E6 /* ImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCell.h; sourceTree = "<group>"; };
 		26A1DE3D1E5D9BBA00BA93E6 /* ImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCell.m; sourceTree = "<group>"; };
 		26A1DE3E1E5D9BBA00BA93E6 /* ImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageCell.xib; sourceTree = "<group>"; };
+		26A1DE4B1E5EEB6100BA93E6 /* ImageM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageM.h; sourceTree = "<group>"; };
+		26A1DE4C1E5EEB6100BA93E6 /* ImageM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageM.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +129,8 @@
 				26A1DE3C1E5D9BBA00BA93E6 /* ImageCell.h */,
 				26A1DE3D1E5D9BBA00BA93E6 /* ImageCell.m */,
 				26A1DE3E1E5D9BBA00BA93E6 /* ImageCell.xib */,
+				26A1DE4B1E5EEB6100BA93E6 /* ImageM.h */,
+				26A1DE4C1E5EEB6100BA93E6 /* ImageM.m */,
 				266838E91E01095000D92BBA /* Assets.xcassets */,
 				266838EB1E01095000D92BBA /* LaunchScreen.storyboard */,
 				266838EE1E01095000D92BBA /* Info.plist */,
@@ -309,6 +314,7 @@
 				26923E211E5ABF97001AD63B /* CameraViewController.m in Sources */,
 				266838E21E01095000D92BBA /* AppDelegate.m in Sources */,
 				266838DF1E01095000D92BBA /* main.m in Sources */,
+				26A1DE4D1E5EEB6100BA93E6 /* ImageM.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

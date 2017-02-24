@@ -1,19 +1,40 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ImageCell">
-            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="imageCell" id="gTV-IL-0wX" customClass="ImageCell">
+            <rect key="frame" x="0.0" y="0.0" width="77" height="96"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
-                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                <rect key="frame" x="0.0" y="0.0" width="77" height="96"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nEQ-kY-941">
+                        <rect key="frame" x="0.0" y="0.0" width="77" height="96"/>
+                    </imageView>
+                </subviews>
             </view>
+            <color key="backgroundColor" red="0.92156862750000001" green="0.1176470588" blue="0.1333333333" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="nEQ-kY-941" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="9HZ-in-Wrb"/>
+                <constraint firstAttribute="trailing" secondItem="nEQ-kY-941" secondAttribute="trailing" id="9nD-Iq-Bzs"/>
+                <constraint firstAttribute="bottom" secondItem="nEQ-kY-941" secondAttribute="bottom" id="LWz-2U-bDU"/>
+                <constraint firstItem="nEQ-kY-941" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="rVO-IR-LDe"/>
+            </constraints>
+            <size key="customSize" width="77" height="96"/>
+            <connections>
+                <outlet property="imageView" destination="nEQ-kY-941" id="qqI-6j-2bg"/>
+            </connections>
+            <point key="canvasLocation" x="-57" y="62"/>
         </collectionViewCell>
     </objects>
 </document>

@@ -82,6 +82,16 @@
     self.reShotBtn.hidden = YES;
     self.okBtn.hidden = YES;
     self.shotBtn.hidden = NO;
+    
+    NSLog(@"self.selectIndex = %zd",self.selectIndex);
+    if (_cameraCallBack) {
+        self.cameraCallBack(self.imageView.image,self.selectIndex);
+        self.imageView.image = nil;
+    }
+    self.selectIndex += 1;
+    if (self.selectIndex > self.totalCount - 1) {
+        [self.navigationController popViewControllerAnimated:YES];
+    }
 }
 
 - (IBAction)lightningBtnClick {
@@ -97,6 +107,45 @@
 }
 
 - (IBAction)cameraBtnClick {
+    [self switchCameras];
+}
+
+- (BOOL)canSwitchCameras {
+    return [[AVCaptureDevice devicesWithMediaType:AVMediaTypeVideo] count] > 1;
+}
+
+- (BOOL)switchCameras {
+    if (![self canSwitchCameras]) {
+        return NO;
+    }
+    NSError *error;
+    AVCaptureDeviceInput *videoInput = [AVCaptureDeviceInput deviceInputWithDevice:self.device error:&error];
+    if (videoInput) {
+        [self.session beginConfiguration];
+        [self.session removeInput:self.deviceInput];
+        if ([self.session canAddInput:videoInput]) {
+            [self.session addInput:videoInput];
+            self.deviceInput = videoInput;
+            
+        }
+        else {
+            [self.session addInput:self.deviceInput];
+        }
+        [self.session commitConfiguration];
+        
+        //转换摄像头后重新设置视频输出
+        [self resetVideoOutput];
+    } else {
+        return NO;
+    }
+    if ([self.device hasMediaType:AVMediaTypeVideo]) {
+        AVCaptureDevicePosition *position = self.device.position;
+        
+    }
+    return YES;
+}
+
+- (void)resetVideoOutput {
     
 }
 

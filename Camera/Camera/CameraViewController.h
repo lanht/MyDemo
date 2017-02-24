@@ -8,6 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
+typedef void(^CameraCallBack)(UIImage *image,NSUInteger index);
+
 @interface CameraViewController : UIViewController
+
+@property (copy ,nonatomic) CameraCallBack cameraCallBack;
+
+@property (assign ,nonatomic) NSInteger selectIndex;
+
+@property (assign ,nonatomic) NSInteger totalCount;
+
+@property (strong ,nonatomic) NSMutableArray *imageMs;
 
 @end
