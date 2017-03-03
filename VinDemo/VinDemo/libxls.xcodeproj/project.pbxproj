@@ -1,0 +1,188 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		260311461E69167C0039F4F1 /* .cproject */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = .cproject; sourceTree = "<group>"; };
+		260311471E69167C0039F4F1 /* .cvsignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .cvsignore; sourceTree = "<group>"; };
+		260311481E69167C0039F4F1 /* .DS_Store */ = {isa = PBXFileReference; lastKnownFileType = file; path = .DS_Store; sourceTree = "<group>"; };
+		260311491E69167C0039F4F1 /* aclocal.m4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = aclocal.m4; sourceTree = "<group>"; };
+		2603114A1E69167C0039F4F1 /* AUTHORS */ = {isa = PBXFileReference; lastKnownFileType = text; path = AUTHORS; sourceTree = "<group>"; };
+		2603114B1E69167C0039F4F1 /* bootstrap */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = bootstrap; sourceTree = "<group>"; };
+		2603114C1E69167C0039F4F1 /* config.guess */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = config.guess; sourceTree = "<group>"; };
+		2603114D1E69167C0039F4F1 /* config.h.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = config.h.in; sourceTree = "<group>"; };
+		2603114E1E69167C0039F4F1 /* config.sub */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = config.sub; sourceTree = "<group>"; };
+		2603114F1E69167C0039F4F1 /* configure */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = configure; sourceTree = "<group>"; };
+		260311501E69167C0039F4F1 /* configure.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = configure.in; sourceTree = "<group>"; };
+		260311511E69167C0039F4F1 /* cplusplus */ = {isa = PBXFileReference; lastKnownFileType = folder; path = cplusplus; sourceTree = "<group>"; };
+		260311521E69167C0039F4F1 /* depcomp */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = depcomp; sourceTree = "<group>"; };
+		260311531E69167C0039F4F1 /* doc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = doc; sourceTree = "<group>"; };
+		260311541E69167C0039F4F1 /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; path = include; sourceTree = "<group>"; };
+		260311551E69167C0039F4F1 /* INSTALL */ = {isa = PBXFileReference; lastKnownFileType = text; path = INSTALL; sourceTree = "<group>"; };
+		260311561E69167C0039F4F1 /* install-sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "install-sh"; sourceTree = "<group>"; };
+		260311571E69167C0039F4F1 /* ltmain.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ltmain.sh; sourceTree = "<group>"; };
+		260311581E69167C0039F4F1 /* m4 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = m4; sourceTree = "<group>"; };
+		260311591E69167C0039F4F1 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		2603115A1E69167C0039F4F1 /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		2603115B1E69167C0039F4F1 /* missing */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = missing; sourceTree = "<group>"; };
+		2603115C1E69167C0039F4F1 /* mkinstalldirs */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = mkinstalldirs; sourceTree = "<group>"; };
+		2603115D1E69167C0039F4F1 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = src; sourceTree = "<group>"; };
+		2603115E1E69167C0039F4F1 /* stamp-h.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = "stamp-h.in"; sourceTree = "<group>"; };
+		2603115F1E69167C0039F4F1 /* test */ = {isa = PBXFileReference; lastKnownFileType = folder; path = test; sourceTree = "<group>"; };
+		260311601E69167C0039F4F1 /* TODO */ = {isa = PBXFileReference; lastKnownFileType = text; path = TODO; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		260311401E69167C0039F4F1 = {
+			isa = PBXGroup;
+			children = (
+				260311461E69167C0039F4F1 /* .cproject */,
+				260311471E69167C0039F4F1 /* .cvsignore */,
+				260311481E69167C0039F4F1 /* .DS_Store */,
+				260311491E69167C0039F4F1 /* aclocal.m4 */,
+				2603114A1E69167C0039F4F1 /* AUTHORS */,
+				2603114B1E69167C0039F4F1 /* bootstrap */,
+				2603114C1E69167C0039F4F1 /* config.guess */,
+				2603114D1E69167C0039F4F1 /* config.h.in */,
+				2603114E1E69167C0039F4F1 /* config.sub */,
+				2603114F1E69167C0039F4F1 /* configure */,
+				260311501E69167C0039F4F1 /* configure.in */,
+				260311511E69167C0039F4F1 /* cplusplus */,
+				260311521E69167C0039F4F1 /* depcomp */,
+				260311531E69167C0039F4F1 /* doc */,
+				260311541E69167C0039F4F1 /* include */,
+				260311551E69167C0039F4F1 /* INSTALL */,
+				260311561E69167C0039F4F1 /* install-sh */,
+				260311571E69167C0039F4F1 /* ltmain.sh */,
+				260311581E69167C0039F4F1 /* m4 */,
+				260311591E69167C0039F4F1 /* Makefile.am */,
+				2603115A1E69167C0039F4F1 /* Makefile.in */,
+				2603115B1E69167C0039F4F1 /* missing */,
+				2603115C1E69167C0039F4F1 /* mkinstalldirs */,
+				2603115D1E69167C0039F4F1 /* src */,
+				2603115E1E69167C0039F4F1 /* stamp-h.in */,
+				2603115F1E69167C0039F4F1 /* test */,
+				260311601E69167C0039F4F1 /* TODO */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		260311451E69167C0039F4F1 /* libxls */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 260311611E69167C0039F4F1 /* Build configuration list for PBXLegacyTarget "libxls" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = /Users/IOSPC/Downloads/DHlibxls/libxls;
+			dependencies = (
+			);
+			name = libxls;
+			passBuildSettingsInEnvironment = 1;
+			productName = libxls;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		260311411E69167C0039F4F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 260311441E69167C0039F4F1 /* Build configuration list for PBXProject "libxls" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 260311401E69167C0039F4F1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				260311451E69167C0039F4F1 /* libxls */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		260311421E69167C0039F4F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		260311431E69167C0039F4F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		260311621E69167C0039F4F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = libxls;
+			};
+			name = Debug;
+		};
+		260311631E69167C0039F4F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = libxls;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		260311441E69167C0039F4F1 /* Build configuration list for PBXProject "libxls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				260311421E69167C0039F4F1 /* Debug */,
+				260311431E69167C0039F4F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		260311611E69167C0039F4F1 /* Build configuration list for PBXLegacyTarget "libxls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				260311621E69167C0039F4F1 /* Debug */,
+				260311631E69167C0039F4F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 260311411E69167C0039F4F1 /* Project object */;
+}

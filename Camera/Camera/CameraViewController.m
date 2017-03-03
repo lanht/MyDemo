@@ -193,7 +193,8 @@
     [self.imageOutput captureStillImageAsynchronouslyFromConnection:stillImageConnection completionHandler:^(CMSampleBufferRef imageDataSampleBuffer, NSError *error) {
         NSData *jpegData = [AVCaptureStillImageOutput jpegStillImageNSDataRepresentation:imageDataSampleBuffer];
         UIImage *image = [UIImage imageWithData:jpegData];
-        self.imageView.image = image;
+//        self.imageView.image = image;
+        self.imageView.image = [UIImage imageWithCGImage:[image CGImage] scale:1.0 orientation:UIImageOrientationLeftMirrored];
         if (self.session) {
             [self.session stopRunning];
         }
