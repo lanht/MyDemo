@@ -44,17 +44,24 @@
         NSInteger conv = [self conversion:[upStr substringWithRange:range]];
         [codes addObject:@(conv)];
     }
-    return [self calculate:codes];
+    return [self calculate:codes upStr:upStr];
 }
 
-+ (BOOL)calculate:(NSArray *)codeArray {
++ (BOOL)calculate:(NSArray *)codeArray upStr:(NSString *)upStr {
     NSArray *coefficients = @[@(8),@(7),@(6),@(5),@(4),@(3),@(2),@(10),@(0),@(9),@(8),@(7),@(6),@(5),@(4),@(3),@(2)];
-    NSInteger total=0;
+    NSInteger total = 0;
     for (int i = 0; i<codeArray.count; i++) {
         total += [codeArray[i] integerValue] * [coefficients[i] integerValue];
     }
     NSInteger remainder = total % 11;
     NSLog(@"余数为＝%zd",remainder);
+    if (remainder == 10) {
+        NSRange range = {8,1};
+        if ([[upStr substringWithRange:range] isEqualToString:@"X"]) {
+            return YES;
+        }
+        return NO;
+    }
     return remainder == [codeArray[8] integerValue];
 }
 

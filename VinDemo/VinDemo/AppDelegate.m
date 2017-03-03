@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ValidationVIN.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    BOOL isVin = [ValidationVIN validatVinWithCode:@"LGBH72E02EY010387"];
+    if (isVin) {
+        NSLog(@"正确VIN码");
+    } else {
+        NSLog(@"错误VIN码");
+    }
     return YES;
 }
 

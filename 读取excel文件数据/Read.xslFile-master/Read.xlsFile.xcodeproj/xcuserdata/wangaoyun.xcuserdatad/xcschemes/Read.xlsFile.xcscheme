@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0820"
+   LastUpgradeVersion = "0720"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "26BFEE4E1E69345E00FC3161"
-               BuildableName = "VinDemo.app"
-               BlueprintName = "VinDemo"
-               ReferencedContainer = "container:VinDemo.xcodeproj">
+               BlueprintIdentifier = "96813CFA1C902D4100F3ED5C"
+               BuildableName = "Read.xlsFile.app"
+               BlueprintName = "Read.xlsFile"
+               ReferencedContainer = "container:Read.xlsFile.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "26BFEE671E69345E00FC3161"
-               BuildableName = "VinDemoTests.xctest"
-               BlueprintName = "VinDemoTests"
-               ReferencedContainer = "container:VinDemo.xcodeproj">
+               BlueprintIdentifier = "96813D131C902D4100F3ED5C"
+               BuildableName = "Read.xlsFileTests.xctest"
+               BlueprintName = "Read.xlsFileTests"
+               ReferencedContainer = "container:Read.xlsFile.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "26BFEE721E69345E00FC3161"
-               BuildableName = "VinDemoUITests.xctest"
-               BlueprintName = "VinDemoUITests"
-               ReferencedContainer = "container:VinDemo.xcodeproj">
+               BlueprintIdentifier = "96813D1E1C902D4100F3ED5C"
+               BuildableName = "Read.xlsFileUITests.xctest"
+               BlueprintName = "Read.xlsFileUITests"
+               ReferencedContainer = "container:Read.xlsFile.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "26BFEE4E1E69345E00FC3161"
-            BuildableName = "VinDemo.app"
-            BlueprintName = "VinDemo"
-            ReferencedContainer = "container:VinDemo.xcodeproj">
+            BlueprintIdentifier = "96813CFA1C902D4100F3ED5C"
+            BuildableName = "Read.xlsFile.app"
+            BlueprintName = "Read.xlsFile"
+            ReferencedContainer = "container:Read.xlsFile.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "26BFEE4E1E69345E00FC3161"
-            BuildableName = "VinDemo.app"
-            BlueprintName = "VinDemo"
-            ReferencedContainer = "container:VinDemo.xcodeproj">
+            BlueprintIdentifier = "96813CFA1C902D4100F3ED5C"
+            BuildableName = "Read.xlsFile.app"
+            BlueprintName = "Read.xlsFile"
+            ReferencedContainer = "container:Read.xlsFile.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "26BFEE4E1E69345E00FC3161"
-            BuildableName = "VinDemo.app"
-            BlueprintName = "VinDemo"
-            ReferencedContainer = "container:VinDemo.xcodeproj">
+            BlueprintIdentifier = "96813CFA1C902D4100F3ED5C"
+            BuildableName = "Read.xlsFile.app"
+            BlueprintName = "Read.xlsFile"
+            ReferencedContainer = "container:Read.xlsFile.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

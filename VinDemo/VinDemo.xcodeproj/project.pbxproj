@@ -7,77 +7,100 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2603110F1E6916640039F4F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2603110E1E6916640039F4F1 /* main.m */; };
-		260311121E6916640039F4F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 260311111E6916640039F4F1 /* AppDelegate.m */; };
-		260311151E6916640039F4F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 260311141E6916640039F4F1 /* ViewController.m */; };
-		260311181E6916640039F4F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 260311161E6916640039F4F1 /* Main.storyboard */; };
-		2603111A1E6916640039F4F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 260311191E6916640039F4F1 /* Assets.xcassets */; };
-		2603111D1E6916640039F4F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2603111B1E6916640039F4F1 /* LaunchScreen.storyboard */; };
-		260311281E6916650039F4F1 /* VinDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 260311271E6916650039F4F1 /* VinDemoTests.m */; };
-		260311331E6916650039F4F1 /* VinDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 260311321E6916650039F4F1 /* VinDemoUITests.m */; };
-		2603116E1E69167D0039F4F1 /* DHcell.m in Sources */ = {isa = PBXBuildFile; fileRef = 260311671E69167D0039F4F1 /* DHcell.m */; };
-		2603116F1E69167D0039F4F1 /* DHxlsReaderIOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 2603116A1E69167D0039F4F1 /* DHxlsReaderIOS.m */; };
+		26BFEE541E69345E00FC3161 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BFEE531E69345E00FC3161 /* main.m */; };
+		26BFEE571E69345E00FC3161 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BFEE561E69345E00FC3161 /* AppDelegate.m */; };
+		26BFEE5A1E69345E00FC3161 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BFEE591E69345E00FC3161 /* ViewController.m */; };
+		26BFEE5D1E69345E00FC3161 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26BFEE5B1E69345E00FC3161 /* Main.storyboard */; };
+		26BFEE5F1E69345E00FC3161 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26BFEE5E1E69345E00FC3161 /* Assets.xcassets */; };
+		26BFEE621E69345E00FC3161 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26BFEE601E69345E00FC3161 /* LaunchScreen.storyboard */; };
+		26BFEE6D1E69345E00FC3161 /* VinDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BFEE6C1E69345E00FC3161 /* VinDemoTests.m */; };
+		26BFEE781E69345E00FC3161 /* VinDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BFEE771E69345E00FC3161 /* VinDemoUITests.m */; };
+		26BFEE9A1E69349300FC3161 /* DHcell.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BFEE881E69349300FC3161 /* DHcell.m */; };
+		26BFEE9B1E69349300FC3161 /* DHxlsReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BFEE8A1E69349300FC3161 /* DHxlsReader.m */; };
+		26BFEE9C1E69349300FC3161 /* endian.c in Sources */ = {isa = PBXBuildFile; fileRef = 26BFEE921E69349300FC3161 /* endian.c */; };
+		26BFEE9D1E69349300FC3161 /* ole.c in Sources */ = {isa = PBXBuildFile; fileRef = 26BFEE931E69349300FC3161 /* ole.c */; };
+		26BFEE9E1E69349300FC3161 /* xls.c in Sources */ = {isa = PBXBuildFile; fileRef = 26BFEE941E69349300FC3161 /* xls.c */; };
+		26BFEE9F1E69349300FC3161 /* xlstool.c in Sources */ = {isa = PBXBuildFile; fileRef = 26BFEE951E69349300FC3161 /* xlstool.c */; };
+		26BFEEA21E6934B600FC3161 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 26BFEEA11E6934B600FC3161 /* libiconv.tbd */; };
+		26BFEEAD1E693BF600FC3161 /* test.xls in Resources */ = {isa = PBXBuildFile; fileRef = 26BFEEAC1E693BF600FC3161 /* test.xls */; };
+		26BFEEB21E693F2F00FC3161 /* ValidationVIN.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BFEEB11E693F2F00FC3161 /* ValidationVIN.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		260311241E6916650039F4F1 /* PBXContainerItemProxy */ = {
+		26BFEE691E69345E00FC3161 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 260311021E6916640039F4F1 /* Project object */;
+			containerPortal = 26BFEE471E69345D00FC3161 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 260311091E6916640039F4F1;
+			remoteGlobalIDString = 26BFEE4E1E69345E00FC3161;
 			remoteInfo = VinDemo;
 		};
-		2603112F1E6916650039F4F1 /* PBXContainerItemProxy */ = {
+		26BFEE741E69345E00FC3161 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 260311021E6916640039F4F1 /* Project object */;
+			containerPortal = 26BFEE471E69345D00FC3161 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 260311091E6916640039F4F1;
+			remoteGlobalIDString = 26BFEE4E1E69345E00FC3161;
 			remoteInfo = VinDemo;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2603110A1E6916640039F4F1 /* VinDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VinDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2603110E1E6916640039F4F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		260311101E6916640039F4F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		260311111E6916640039F4F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		260311131E6916640039F4F1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		260311141E6916640039F4F1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		260311171E6916640039F4F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		260311191E6916640039F4F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2603111C1E6916640039F4F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2603111E1E6916640039F4F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		260311231E6916650039F4F1 /* VinDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VinDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		260311271E6916650039F4F1 /* VinDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VinDemoTests.m; sourceTree = "<group>"; };
-		260311291E6916650039F4F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2603112E1E6916650039F4F1 /* VinDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VinDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		260311321E6916650039F4F1 /* VinDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VinDemoUITests.m; sourceTree = "<group>"; };
-		260311341E6916650039F4F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		260311651E69167D0039F4F1 /* DHcell-Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DHcell-Private.h"; sourceTree = "<group>"; };
-		260311661E69167D0039F4F1 /* DHcell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHcell.h; sourceTree = "<group>"; };
-		260311671E69167D0039F4F1 /* DHcell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHcell.m; sourceTree = "<group>"; };
-		260311681E69167D0039F4F1 /* DHxlsReaderIOS-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DHxlsReaderIOS-Prefix.pch"; sourceTree = "<group>"; };
-		260311691E69167D0039F4F1 /* DHxlsReaderIOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHxlsReaderIOS.h; sourceTree = "<group>"; };
-		2603116A1E69167D0039F4F1 /* DHxlsReaderIOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHxlsReaderIOS.m; sourceTree = "<group>"; };
-		2603116B1E69167D0039F4F1 /* libxls.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = libxls.xcodeproj; sourceTree = "<group>"; };
+		26BFEE4F1E69345E00FC3161 /* VinDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VinDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26BFEE531E69345E00FC3161 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		26BFEE551E69345E00FC3161 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		26BFEE561E69345E00FC3161 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		26BFEE581E69345E00FC3161 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		26BFEE591E69345E00FC3161 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		26BFEE5C1E69345E00FC3161 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26BFEE5E1E69345E00FC3161 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26BFEE611E69345E00FC3161 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26BFEE631E69345E00FC3161 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26BFEE681E69345E00FC3161 /* VinDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VinDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26BFEE6C1E69345E00FC3161 /* VinDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VinDemoTests.m; sourceTree = "<group>"; };
+		26BFEE6E1E69345E00FC3161 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26BFEE731E69345E00FC3161 /* VinDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VinDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26BFEE771E69345E00FC3161 /* VinDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VinDemoUITests.m; sourceTree = "<group>"; };
+		26BFEE791E69345E00FC3161 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26BFEE861E69349300FC3161 /* DHcell-Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DHcell-Private.h"; sourceTree = "<group>"; };
+		26BFEE871E69349300FC3161 /* DHcell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHcell.h; sourceTree = "<group>"; };
+		26BFEE881E69349300FC3161 /* DHcell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHcell.m; sourceTree = "<group>"; };
+		26BFEE891E69349300FC3161 /* DHxlsReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHxlsReader.h; sourceTree = "<group>"; };
+		26BFEE8A1E69349300FC3161 /* DHxlsReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHxlsReader.m; sourceTree = "<group>"; };
+		26BFEE8C1E69349300FC3161 /* brdb.c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brdb.c.h; sourceTree = "<group>"; };
+		26BFEE8D1E69349300FC3161 /* brdb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brdb.h; sourceTree = "<group>"; };
+		26BFEE8E1E69349300FC3161 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		26BFEE8F1E69349300FC3161 /* endian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = endian.h; sourceTree = "<group>"; };
+		26BFEE901E69349300FC3161 /* ole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ole.h; sourceTree = "<group>"; };
+		26BFEE921E69349300FC3161 /* endian.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = endian.c; sourceTree = "<group>"; };
+		26BFEE931E69349300FC3161 /* ole.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ole.c; sourceTree = "<group>"; };
+		26BFEE941E69349300FC3161 /* xls.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xls.c; sourceTree = "<group>"; };
+		26BFEE951E69349300FC3161 /* xlstool.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xlstool.c; sourceTree = "<group>"; };
+		26BFEE961E69349300FC3161 /* xls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xls.h; sourceTree = "<group>"; };
+		26BFEE971E69349300FC3161 /* xlsstruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xlsstruct.h; sourceTree = "<group>"; };
+		26BFEE981E69349300FC3161 /* xlstool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xlstool.h; sourceTree = "<group>"; };
+		26BFEE991E69349300FC3161 /* xlstypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xlstypes.h; sourceTree = "<group>"; };
+		26BFEEA11E6934B600FC3161 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		26BFEEAC1E693BF600FC3161 /* test.xls */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.xls; sourceTree = "<group>"; };
+		26BFEEB01E693F2F00FC3161 /* ValidationVIN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValidationVIN.h; sourceTree = "<group>"; };
+		26BFEEB11E693F2F00FC3161 /* ValidationVIN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ValidationVIN.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		260311071E6916640039F4F1 /* Frameworks */ = {
+		26BFEE4C1E69345E00FC3161 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26BFEEA21E6934B600FC3161 /* libiconv.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26BFEE651E69345E00FC3161 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		260311201E6916650039F4F1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2603112B1E6916650039F4F1 /* Frameworks */ = {
+		26BFEE701E69345E00FC3161 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -87,100 +110,132 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		260311011E6916640039F4F1 = {
+		26BFEE461E69345D00FC3161 = {
 			isa = PBXGroup;
 			children = (
-				2603110C1E6916640039F4F1 /* VinDemo */,
-				260311261E6916650039F4F1 /* VinDemoTests */,
-				260311311E6916650039F4F1 /* VinDemoUITests */,
-				2603110B1E6916640039F4F1 /* Products */,
+				26BFEE511E69345E00FC3161 /* VinDemo */,
+				26BFEE6B1E69345E00FC3161 /* VinDemoTests */,
+				26BFEE761E69345E00FC3161 /* VinDemoUITests */,
+				26BFEE501E69345E00FC3161 /* Products */,
+				26BFEEA01E6934B600FC3161 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		2603110B1E6916640039F4F1 /* Products */ = {
+		26BFEE501E69345E00FC3161 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2603110A1E6916640039F4F1 /* VinDemo.app */,
-				260311231E6916650039F4F1 /* VinDemoTests.xctest */,
-				2603112E1E6916650039F4F1 /* VinDemoUITests.xctest */,
+				26BFEE4F1E69345E00FC3161 /* VinDemo.app */,
+				26BFEE681E69345E00FC3161 /* VinDemoTests.xctest */,
+				26BFEE731E69345E00FC3161 /* VinDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2603110C1E6916640039F4F1 /* VinDemo */ = {
+		26BFEE511E69345E00FC3161 /* VinDemo */ = {
 			isa = PBXGroup;
 			children = (
-				260311101E6916640039F4F1 /* AppDelegate.h */,
-				260311111E6916640039F4F1 /* AppDelegate.m */,
-				260311131E6916640039F4F1 /* ViewController.h */,
-				260311141E6916640039F4F1 /* ViewController.m */,
-				260311161E6916640039F4F1 /* Main.storyboard */,
-				260311191E6916640039F4F1 /* Assets.xcassets */,
-				2603111B1E6916640039F4F1 /* LaunchScreen.storyboard */,
-				2603111E1E6916640039F4F1 /* Info.plist */,
-				260311641E69167D0039F4F1 /* DHxlsReaderIOS */,
-				2603116B1E69167D0039F4F1 /* libxls.xcodeproj */,
-				2603110D1E6916640039F4F1 /* Supporting Files */,
+				26BFEE851E69349300FC3161 /* DHxlsReader */,
+				26BFEE8B1E69349300FC3161 /* libxls */,
+				26BFEE551E69345E00FC3161 /* AppDelegate.h */,
+				26BFEE561E69345E00FC3161 /* AppDelegate.m */,
+				26BFEE581E69345E00FC3161 /* ViewController.h */,
+				26BFEE591E69345E00FC3161 /* ViewController.m */,
+				26BFEEB01E693F2F00FC3161 /* ValidationVIN.h */,
+				26BFEEB11E693F2F00FC3161 /* ValidationVIN.m */,
+				26BFEE5B1E69345E00FC3161 /* Main.storyboard */,
+				26BFEE5E1E69345E00FC3161 /* Assets.xcassets */,
+				26BFEE601E69345E00FC3161 /* LaunchScreen.storyboard */,
+				26BFEE631E69345E00FC3161 /* Info.plist */,
+				26BFEEAC1E693BF600FC3161 /* test.xls */,
+				26BFEE521E69345E00FC3161 /* Supporting Files */,
 			);
 			path = VinDemo;
 			sourceTree = "<group>";
 		};
-		2603110D1E6916640039F4F1 /* Supporting Files */ = {
+		26BFEE521E69345E00FC3161 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				2603110E1E6916640039F4F1 /* main.m */,
+				26BFEE531E69345E00FC3161 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		260311261E6916650039F4F1 /* VinDemoTests */ = {
+		26BFEE6B1E69345E00FC3161 /* VinDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				260311271E6916650039F4F1 /* VinDemoTests.m */,
-				260311291E6916650039F4F1 /* Info.plist */,
+				26BFEE6C1E69345E00FC3161 /* VinDemoTests.m */,
+				26BFEE6E1E69345E00FC3161 /* Info.plist */,
 			);
 			path = VinDemoTests;
 			sourceTree = "<group>";
 		};
-		260311311E6916650039F4F1 /* VinDemoUITests */ = {
+		26BFEE761E69345E00FC3161 /* VinDemoUITests */ = {
 			isa = PBXGroup;
 			children = (
-				260311321E6916650039F4F1 /* VinDemoUITests.m */,
-				260311341E6916650039F4F1 /* Info.plist */,
+				26BFEE771E69345E00FC3161 /* VinDemoUITests.m */,
+				26BFEE791E69345E00FC3161 /* Info.plist */,
 			);
 			path = VinDemoUITests;
 			sourceTree = "<group>";
 		};
-		260311641E69167D0039F4F1 /* DHxlsReaderIOS */ = {
+		26BFEE851E69349300FC3161 /* DHxlsReader */ = {
 			isa = PBXGroup;
 			children = (
-				260311651E69167D0039F4F1 /* DHcell-Private.h */,
-				260311661E69167D0039F4F1 /* DHcell.h */,
-				260311671E69167D0039F4F1 /* DHcell.m */,
-				260311681E69167D0039F4F1 /* DHxlsReaderIOS-Prefix.pch */,
-				260311691E69167D0039F4F1 /* DHxlsReaderIOS.h */,
-				2603116A1E69167D0039F4F1 /* DHxlsReaderIOS.m */,
+				26BFEE861E69349300FC3161 /* DHcell-Private.h */,
+				26BFEE871E69349300FC3161 /* DHcell.h */,
+				26BFEE881E69349300FC3161 /* DHcell.m */,
+				26BFEE891E69349300FC3161 /* DHxlsReader.h */,
+				26BFEE8A1E69349300FC3161 /* DHxlsReader.m */,
 			);
-			path = DHxlsReaderIOS;
+			path = DHxlsReader;
 			sourceTree = "<group>";
 		};
-		2603116C1E69167D0039F4F1 /* Products */ = {
+		26BFEE8B1E69349300FC3161 /* libxls */ = {
 			isa = PBXGroup;
 			children = (
+				26BFEE8C1E69349300FC3161 /* brdb.c.h */,
+				26BFEE8D1E69349300FC3161 /* brdb.h */,
+				26BFEE8E1E69349300FC3161 /* config.h */,
+				26BFEE8F1E69349300FC3161 /* endian.h */,
+				26BFEE901E69349300FC3161 /* ole.h */,
+				26BFEE911E69349300FC3161 /* src */,
+				26BFEE961E69349300FC3161 /* xls.h */,
+				26BFEE971E69349300FC3161 /* xlsstruct.h */,
+				26BFEE981E69349300FC3161 /* xlstool.h */,
+				26BFEE991E69349300FC3161 /* xlstypes.h */,
 			);
-			name = Products;
+			path = libxls;
+			sourceTree = "<group>";
+		};
+		26BFEE911E69349300FC3161 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				26BFEE921E69349300FC3161 /* endian.c */,
+				26BFEE931E69349300FC3161 /* ole.c */,
+				26BFEE941E69349300FC3161 /* xls.c */,
+				26BFEE951E69349300FC3161 /* xlstool.c */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		26BFEEA01E6934B600FC3161 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26BFEEA11E6934B600FC3161 /* libiconv.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		260311091E6916640039F4F1 /* VinDemo */ = {
+		26BFEE4E1E69345E00FC3161 /* VinDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 260311371E6916650039F4F1 /* Build configuration list for PBXNativeTarget "VinDemo" */;
+			buildConfigurationList = 26BFEE7C1E69345E00FC3161 /* Build configuration list for PBXNativeTarget "VinDemo" */;
 			buildPhases = (
-				260311061E6916640039F4F1 /* Sources */,
-				260311071E6916640039F4F1 /* Frameworks */,
-				260311081E6916640039F4F1 /* Resources */,
+				26BFEE4B1E69345E00FC3161 /* Sources */,
+				26BFEE4C1E69345E00FC3161 /* Frameworks */,
+				26BFEE4D1E69345E00FC3161 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -188,71 +243,71 @@
 			);
 			name = VinDemo;
 			productName = VinDemo;
-			productReference = 2603110A1E6916640039F4F1 /* VinDemo.app */;
+			productReference = 26BFEE4F1E69345E00FC3161 /* VinDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		260311221E6916650039F4F1 /* VinDemoTests */ = {
+		26BFEE671E69345E00FC3161 /* VinDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2603113A1E6916650039F4F1 /* Build configuration list for PBXNativeTarget "VinDemoTests" */;
+			buildConfigurationList = 26BFEE7F1E69345E00FC3161 /* Build configuration list for PBXNativeTarget "VinDemoTests" */;
 			buildPhases = (
-				2603111F1E6916650039F4F1 /* Sources */,
-				260311201E6916650039F4F1 /* Frameworks */,
-				260311211E6916650039F4F1 /* Resources */,
+				26BFEE641E69345E00FC3161 /* Sources */,
+				26BFEE651E69345E00FC3161 /* Frameworks */,
+				26BFEE661E69345E00FC3161 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				260311251E6916650039F4F1 /* PBXTargetDependency */,
+				26BFEE6A1E69345E00FC3161 /* PBXTargetDependency */,
 			);
 			name = VinDemoTests;
 			productName = VinDemoTests;
-			productReference = 260311231E6916650039F4F1 /* VinDemoTests.xctest */;
+			productReference = 26BFEE681E69345E00FC3161 /* VinDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2603112D1E6916650039F4F1 /* VinDemoUITests */ = {
+		26BFEE721E69345E00FC3161 /* VinDemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2603113D1E6916650039F4F1 /* Build configuration list for PBXNativeTarget "VinDemoUITests" */;
+			buildConfigurationList = 26BFEE821E69345E00FC3161 /* Build configuration list for PBXNativeTarget "VinDemoUITests" */;
 			buildPhases = (
-				2603112A1E6916650039F4F1 /* Sources */,
-				2603112B1E6916650039F4F1 /* Frameworks */,
-				2603112C1E6916650039F4F1 /* Resources */,
+				26BFEE6F1E69345E00FC3161 /* Sources */,
+				26BFEE701E69345E00FC3161 /* Frameworks */,
+				26BFEE711E69345E00FC3161 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				260311301E6916650039F4F1 /* PBXTargetDependency */,
+				26BFEE751E69345E00FC3161 /* PBXTargetDependency */,
 			);
 			name = VinDemoUITests;
 			productName = VinDemoUITests;
-			productReference = 2603112E1E6916650039F4F1 /* VinDemoUITests.xctest */;
+			productReference = 26BFEE731E69345E00FC3161 /* VinDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		260311021E6916640039F4F1 /* Project object */ = {
+		26BFEE471E69345D00FC3161 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = lanht;
 				TargetAttributes = {
-					260311091E6916640039F4F1 = {
+					26BFEE4E1E69345E00FC3161 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 					};
-					260311221E6916650039F4F1 = {
+					26BFEE671E69345E00FC3161 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 260311091E6916640039F4F1;
+						TestTargetID = 26BFEE4E1E69345E00FC3161;
 					};
-					2603112D1E6916650039F4F1 = {
+					26BFEE721E69345E00FC3161 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 260311091E6916640039F4F1;
+						TestTargetID = 26BFEE4E1E69345E00FC3161;
 					};
 				};
 			};
-			buildConfigurationList = 260311051E6916640039F4F1 /* Build configuration list for PBXProject "VinDemo" */;
+			buildConfigurationList = 26BFEE4A1E69345D00FC3161 /* Build configuration list for PBXProject "VinDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -260,43 +315,38 @@
 				en,
 				Base,
 			);
-			mainGroup = 260311011E6916640039F4F1;
-			productRefGroup = 2603110B1E6916640039F4F1 /* Products */;
+			mainGroup = 26BFEE461E69345D00FC3161;
+			productRefGroup = 26BFEE501E69345E00FC3161 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 2603116C1E69167D0039F4F1 /* Products */;
-					ProjectRef = 2603116B1E69167D0039F4F1 /* libxls.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
-				260311091E6916640039F4F1 /* VinDemo */,
-				260311221E6916650039F4F1 /* VinDemoTests */,
-				2603112D1E6916650039F4F1 /* VinDemoUITests */,
+				26BFEE4E1E69345E00FC3161 /* VinDemo */,
+				26BFEE671E69345E00FC3161 /* VinDemoTests */,
+				26BFEE721E69345E00FC3161 /* VinDemoUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		260311081E6916640039F4F1 /* Resources */ = {
+		26BFEE4D1E69345E00FC3161 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2603111D1E6916640039F4F1 /* LaunchScreen.storyboard in Resources */,
-				2603111A1E6916640039F4F1 /* Assets.xcassets in Resources */,
-				260311181E6916640039F4F1 /* Main.storyboard in Resources */,
+				26BFEE621E69345E00FC3161 /* LaunchScreen.storyboard in Resources */,
+				26BFEEAD1E693BF600FC3161 /* test.xls in Resources */,
+				26BFEE5F1E69345E00FC3161 /* Assets.xcassets in Resources */,
+				26BFEE5D1E69345E00FC3161 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		260311211E6916650039F4F1 /* Resources */ = {
+		26BFEE661E69345E00FC3161 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2603112C1E6916650039F4F1 /* Resources */ = {
+		26BFEE711E69345E00FC3161 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -306,62 +356,67 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		260311061E6916640039F4F1 /* Sources */ = {
+		26BFEE4B1E69345E00FC3161 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				260311151E6916640039F4F1 /* ViewController.m in Sources */,
-				260311121E6916640039F4F1 /* AppDelegate.m in Sources */,
-				2603110F1E6916640039F4F1 /* main.m in Sources */,
-				2603116F1E69167D0039F4F1 /* DHxlsReaderIOS.m in Sources */,
-				2603116E1E69167D0039F4F1 /* DHcell.m in Sources */,
+				26BFEE5A1E69345E00FC3161 /* ViewController.m in Sources */,
+				26BFEE571E69345E00FC3161 /* AppDelegate.m in Sources */,
+				26BFEE9F1E69349300FC3161 /* xlstool.c in Sources */,
+				26BFEE9D1E69349300FC3161 /* ole.c in Sources */,
+				26BFEEB21E693F2F00FC3161 /* ValidationVIN.m in Sources */,
+				26BFEE541E69345E00FC3161 /* main.m in Sources */,
+				26BFEE9B1E69349300FC3161 /* DHxlsReader.m in Sources */,
+				26BFEE9E1E69349300FC3161 /* xls.c in Sources */,
+				26BFEE9C1E69349300FC3161 /* endian.c in Sources */,
+				26BFEE9A1E69349300FC3161 /* DHcell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2603111F1E6916650039F4F1 /* Sources */ = {
+		26BFEE641E69345E00FC3161 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				260311281E6916650039F4F1 /* VinDemoTests.m in Sources */,
+				26BFEE6D1E69345E00FC3161 /* VinDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2603112A1E6916650039F4F1 /* Sources */ = {
+		26BFEE6F1E69345E00FC3161 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				260311331E6916650039F4F1 /* VinDemoUITests.m in Sources */,
+				26BFEE781E69345E00FC3161 /* VinDemoUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		260311251E6916650039F4F1 /* PBXTargetDependency */ = {
+		26BFEE6A1E69345E00FC3161 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 260311091E6916640039F4F1 /* VinDemo */;
-			targetProxy = 260311241E6916650039F4F1 /* PBXContainerItemProxy */;
+			target = 26BFEE4E1E69345E00FC3161 /* VinDemo */;
+			targetProxy = 26BFEE691E69345E00FC3161 /* PBXContainerItemProxy */;
 		};
-		260311301E6916650039F4F1 /* PBXTargetDependency */ = {
+		26BFEE751E69345E00FC3161 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 260311091E6916640039F4F1 /* VinDemo */;
-			targetProxy = 2603112F1E6916650039F4F1 /* PBXContainerItemProxy */;
+			target = 26BFEE4E1E69345E00FC3161 /* VinDemo */;
+			targetProxy = 26BFEE741E69345E00FC3161 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		260311161E6916640039F4F1 /* Main.storyboard */ = {
+		26BFEE5B1E69345E00FC3161 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				260311171E6916640039F4F1 /* Base */,
+				26BFEE5C1E69345E00FC3161 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		2603111B1E6916640039F4F1 /* LaunchScreen.storyboard */ = {
+		26BFEE601E69345E00FC3161 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2603111C1E6916640039F4F1 /* Base */,
+				26BFEE611E69345E00FC3161 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -369,7 +424,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		260311351E6916650039F4F1 /* Debug */ = {
+		26BFEE7A1E69345E00FC3161 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -416,7 +471,7 @@
 			};
 			name = Debug;
 		};
-		260311361E6916650039F4F1 /* Release */ = {
+		26BFEE7B1E69345E00FC3161 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -457,7 +512,7 @@
 			};
 			name = Release;
 		};
-		260311381E6916650039F4F1 /* Debug */ = {
+		26BFEE7D1E69345E00FC3161 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -468,7 +523,7 @@
 			};
 			name = Debug;
 		};
-		260311391E6916650039F4F1 /* Release */ = {
+		26BFEE7E1E69345E00FC3161 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -479,7 +534,7 @@
 			};
 			name = Release;
 		};
-		2603113B1E6916650039F4F1 /* Debug */ = {
+		26BFEE801E69345E00FC3161 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,7 +546,7 @@
 			};
 			name = Debug;
 		};
-		2603113C1E6916650039F4F1 /* Release */ = {
+		26BFEE811E69345E00FC3161 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -503,7 +558,7 @@
 			};
 			name = Release;
 		};
-		2603113E1E6916650039F4F1 /* Debug */ = {
+		26BFEE831E69345E00FC3161 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = VinDemoUITests/Info.plist;
@@ -514,7 +569,7 @@
 			};
 			name = Debug;
 		};
-		2603113F1E6916650039F4F1 /* Release */ = {
+		26BFEE841E69345E00FC3161 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = VinDemoUITests/Info.plist;
@@ -528,40 +583,40 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		260311051E6916640039F4F1 /* Build configuration list for PBXProject "VinDemo" */ = {
+		26BFEE4A1E69345D00FC3161 /* Build configuration list for PBXProject "VinDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				260311351E6916650039F4F1 /* Debug */,
-				260311361E6916650039F4F1 /* Release */,
+				26BFEE7A1E69345E00FC3161 /* Debug */,
+				26BFEE7B1E69345E00FC3161 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		260311371E6916650039F4F1 /* Build configuration list for PBXNativeTarget "VinDemo" */ = {
+		26BFEE7C1E69345E00FC3161 /* Build configuration list for PBXNativeTarget "VinDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				260311381E6916650039F4F1 /* Debug */,
-				260311391E6916650039F4F1 /* Release */,
+				26BFEE7D1E69345E00FC3161 /* Debug */,
+				26BFEE7E1E69345E00FC3161 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		2603113A1E6916650039F4F1 /* Build configuration list for PBXNativeTarget "VinDemoTests" */ = {
+		26BFEE7F1E69345E00FC3161 /* Build configuration list for PBXNativeTarget "VinDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2603113B1E6916650039F4F1 /* Debug */,
-				2603113C1E6916650039F4F1 /* Release */,
+				26BFEE801E69345E00FC3161 /* Debug */,
+				26BFEE811E69345E00FC3161 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		2603113D1E6916650039F4F1 /* Build configuration list for PBXNativeTarget "VinDemoUITests" */ = {
+		26BFEE821E69345E00FC3161 /* Build configuration list for PBXNativeTarget "VinDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2603113E1E6916650039F4F1 /* Debug */,
-				2603113F1E6916650039F4F1 /* Release */,
+				26BFEE831E69345E00FC3161 /* Debug */,
+				26BFEE841E69345E00FC3161 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 260311021E6916640039F4F1 /* Project object */;
+	rootObject = 26BFEE471E69345D00FC3161 /* Project object */;
 }
