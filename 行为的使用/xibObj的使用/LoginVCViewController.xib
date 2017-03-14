@@ -173,7 +173,7 @@
         <customObject id="11o-eP-oqg" customClass="HRTextFieldBehavior">
             <userDefinedRuntimeAttributes>
                 <userDefinedRuntimeAttribute type="number" keyPath="textLength">
-                    <integer key="value" value="11"/>
+                    <integer key="value" value="0"/>
                 </userDefinedRuntimeAttribute>
             </userDefinedRuntimeAttributes>
             <connections>
@@ -182,11 +182,6 @@
             </connections>
         </customObject>
         <customObject id="0dF-U6-der" customClass="HRTextFieldBehavior">
-            <userDefinedRuntimeAttributes>
-                <userDefinedRuntimeAttribute type="number" keyPath="textLength">
-                    <integer key="value" value="4"/>
-                </userDefinedRuntimeAttribute>
-            </userDefinedRuntimeAttributes>
             <connections>
                 <outlet property="owner" destination="-1" id="IVx-nZ-lFC"/>
                 <outlet property="textField" destination="eok-zw-CAD" id="FCc-vz-96y"/>

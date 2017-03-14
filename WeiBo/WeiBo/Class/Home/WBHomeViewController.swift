@@ -16,7 +16,7 @@ class WBHomeViewController: WBBaseViewController {
     }
     
     func setUpNavItem() {
-        navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .edit, target: self, action: #selector(showFriends))
+        navItem.leftBarButtonItem = UIBarButtonItem(title:"好友", fontSize: 16, target: self, action: #selector(showFriends))
     }
     
     func showFriends() {
