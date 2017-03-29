@@ -37,5 +37,4 @@ class WBNavigationController: UINavigationController {
     @objc private func popToParent() {
         popViewController(animated: true)
     }
-
 }
