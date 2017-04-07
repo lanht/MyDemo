@@ -23,6 +23,9 @@
 		26BFEF091E695FC200FC3161 /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BFEF081E695FC200FC3161 /* Bundle+Extension.swift */; };
 		26BFEF0B1E69751D00FC3161 /* WBBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BFEF0A1E69751D00FC3161 /* WBBaseViewController.swift */; };
 		26BFEF0D1E69791E00FC3161 /* WBFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BFEF0C1E69791E00FC3161 /* WBFriendsViewController.swift */; };
+		26FA003F1E976307004A7BE7 /* WBVisitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FA003E1E976307004A7BE7 /* WBVisitorView.swift */; };
+		26FA00411E976FCC004A7BE7 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FA00401E976FCC004A7BE7 /* UIButton+Extension.swift */; };
+		26FA00431E977474004A7BE7 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FA00421E977474004A7BE7 /* UILabel+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +68,9 @@
 		26BFEF081E695FC200FC3161 /* Bundle+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Extension.swift"; sourceTree = "<group>"; };
 		26BFEF0A1E69751D00FC3161 /* WBBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBBaseViewController.swift; sourceTree = "<group>"; };
 		26BFEF0C1E69791E00FC3161 /* WBFriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBFriendsViewController.swift; sourceTree = "<group>"; };
+		26FA003E1E976307004A7BE7 /* WBVisitorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBVisitorView.swift; sourceTree = "<group>"; };
+		26FA00401E976FCC004A7BE7 /* UIButton+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		26FA00421E977474004A7BE7 /* UILabel+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,6 +209,7 @@
 				26BFEEF91E69581E00FC3161 /* WBTabBarViewController.swift */,
 				26BFEF051E695CF800FC3161 /* WBNavigationController.swift */,
 				26BFEF0A1E69751D00FC3161 /* WBBaseViewController.swift */,
+				26FA003D1E9762E9004A7BE7 /* Visitor */,
 			);
 			path = Root;
 			sourceTree = "<group>";
@@ -212,8 +219,18 @@
 			children = (
 				26BFEF081E695FC200FC3161 /* Bundle+Extension.swift */,
 				26646D611E77DE6600E90F85 /* UIBarButtonItem+Extension.swift */,
+				26FA00401E976FCC004A7BE7 /* UIButton+Extension.swift */,
+				26FA00421E977474004A7BE7 /* UILabel+Extension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		26FA003D1E9762E9004A7BE7 /* Visitor */ = {
+			isa = PBXGroup;
+			children = (
+				26FA003E1E976307004A7BE7 /* WBVisitorView.swift */,
+			);
+			path = Visitor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -352,6 +369,7 @@
 			files = (
 				26BFEEFE1E69595E00FC3161 /* WBDiscoverViewController.swift in Sources */,
 				26BFEF091E695FC200FC3161 /* Bundle+Extension.swift in Sources */,
+				26FA00431E977474004A7BE7 /* UILabel+Extension.swift in Sources */,
 				26BFEF0D1E69791E00FC3161 /* WBFriendsViewController.swift in Sources */,
 				26BFEF021E69597200FC3161 /* WBMassageViewController.swift in Sources */,
 				26646D621E77DE6600E90F85 /* UIBarButtonItem+Extension.swift in Sources */,
@@ -359,9 +377,11 @@
 				26BFEF0B1E69751D00FC3161 /* WBBaseViewController.swift in Sources */,
 				26BFEF001E69596800FC3161 /* WBHomeViewController.swift in Sources */,
 				26BFEF061E695CF800FC3161 /* WBNavigationController.swift in Sources */,
+				26FA003F1E976307004A7BE7 /* WBVisitorView.swift in Sources */,
 				26BFEEFA1E69581E00FC3161 /* WBTabBarViewController.swift in Sources */,
 				26BFEF041E69597C00FC3161 /* WBUserCenterViewController.swift in Sources */,
 				26BFEEFC1E69594600FC3161 /* WBPublishViewController.swift in Sources */,
+				26FA00411E976FCC004A7BE7 /* UIButton+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,7 +10,7 @@ import UIKit
 
 // 注意：
 // 1: extension 中不能有属性
-// 2: extension 不能重写父类的方法。重写父类的方法，是子类的职责
+// 2: extension 不能重写父类的非扩展的方法。重写父类的方法，是子类的职责
 
 class WBBaseViewController: UIViewController {
 
@@ -23,6 +23,9 @@ class WBBaseViewController: UIViewController {
     var isPullup = false
     
     var userloginOn = false
+    
+    /// 访客视图信息字典
+    var visitorInfo : [String : String]?
     
     // 刷新控件
     var refreshControl : UIRefreshControl?
@@ -85,9 +88,10 @@ extension WBBaseViewController {
     }
     
     func setupVisitView() {
-        let visitView = UIView(frame: view.bounds)
-        visitView.backgroundColor = UIColor.red
+        let visitView = WBVisitorView(frame: view.bounds)
         view.insertSubview(visitView, belowSubview: navigationBar)
+        
+        visitView.visitorInfo = visitorInfo
         
     }
 }
